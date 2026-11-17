@@ -1,0 +1,3 @@
+model,ljung_box_pvalue,residuals_white,jb_pvalue,shapiro_pvalue,looks_normal
+L3_trend_lag1_lag4,0.00012847837719948992,False,2.175848967293567e-295,4.125513563458973e-14,False
+"ARIMA(2, 1, 2)",0.3752776379034961,True,0.0,3.3064337835216263e-13,False

@@ -1,0 +1,14 @@
+Best forecastable linear model: L3_trend_lag1_lag4
+  AIC=473.037  R2=0.8971  Adj R2=0.8954
+Best ARIMA model: ARIMA(2, 1, 2)
+  AIC=463.564  BIC=479.584
+Stationarity: ADF p=0.2865 on level -> d=1
+
+Out-of-sample (20q holdout, 2004-10-01..2009-07-01):
+           model     rmse      mae     mape    r2_oos
+linear_recursive 1.990115 1.798198 4.411170 -0.292742
+           arima 2.132333 1.841304 2.334537 -0.484109
+naive_last_value 2.115427 1.829000 2.369320 -0.460669
+
+Winner: linear beats ARIMA by 6.7% lower RMSE
+Winner vs. naive baseline: 5.9% lower RMSE
